@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<style>
+			body {font-weight: normal; padding: 10px}
+			p {font-size: 12px;}
+			p:nth-child(3){text-decoration:underline;}
+			.myStandarad {color:red;}
+			#special {font-weight: italic;}
+
+			li:nth-child(1){font-weight:bold; text-decoration:underline;}
+		</style>
+	</head>
+
+	<body>
+<p>My new paragraph</p>
+<p class="myStandarad">Hi, I'm Sunghun Choi.</p>
+<p class="myStandard" id="speical"> I'm not taking Jason Clark's AP Lit Class!</p>
